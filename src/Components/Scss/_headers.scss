@@ -1,0 +1,91 @@
+.Direction {
+  direction: rtl;
+}
+.header {
+  display: grid;
+  grid-template-columns: 120px auto 200px;
+  height: 100px;
+  & .logo {
+    margin-top: 8px;
+    & img {
+      display: block;
+      width: 100px;
+      height: 50px;
+      float: left;
+    }
+  }
+}
+.navLink a {
+  font-family: revert;
+  font-size: bold;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(83, 75, 75);
+  padding: 0px 25px;
+  line-height: 100px;
+}
+.navLink a:hover {
+  color: red;
+}
+.btn {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-end;
+  align-items: center;
+  & .btn1 {
+    margin: 10px;
+  }
+  & .btn2 {
+    background-color: rgb(81, 13, 89);
+    padding: 10px 20px;
+    color: aliceblue;
+  }
+}
+.fa {
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  display: none;
+  float: right;
+  padding: 0px 15px 0px 0px;
+  line-height: 90px;
+  cursor: pointer;
+}
+@include breakpoints($max_w, $md) {
+  .header {
+    // background-color: aquamarine;
+    grid-template-columns: auto;
+  }
+  .navbar {
+    display: none;
+    text-align: center;
+    & a {
+      line-height: 50px;
+    }
+  }
+  .navLink {
+    display: none;
+  }
+  .navbar {
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    text-align: center;
+    & a {
+      line-height: 50px;
+    }
+  }
+  .btn {
+    display: none;
+    // justify-content: center;
+  }
+  .btnN {
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+  }
+  .fa {
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+@import "./Components/Scss/variables";
+@import './Components/Scss/headers';
+@import './Components/Scss/paragraph';
+@import "./Components/Scss/paragraph2";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  margin: 50px 170px 0 170px;
+  height: 200vh;
+}
+
+body {
+  font-family:$font;
+}
+@media only screen and (max-width: 1187px){
+  .main{
+      margin: 10px;
+  }
+}   

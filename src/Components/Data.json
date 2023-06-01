@@ -1,0 +1,30 @@
+{
+  "English": {
+    "Home": "Home",
+    "Paragraph_home":"paragraph",
+    "About": "About Page",
+    "Contect": "Contect Page",
+    "Help": "Help Center",
+    "Btn": "click me",
+    "Heading": "heading content",
+    "Description_Home": "About page discription is the detail about the project that is describe that all the information about that in the form of paragraph this the the best way to discribe the product",
+    "Description_About": "About page discription is the detail about the project that is describe that all the information about that in the form of paragraph this the the best way to discribe the product",
+    "Description_Contect": "Contect page discription is the detail about the project that is describe that all the information about that in the form of paragraph this the the best way to discribe the product",
+    "Description_Help": "Help page discription is the detail about the project that is describe that all the information about that in the form of paragraph this the the best way to discribe the product",
+    "Language": "English"
+  },
+  "عربي": {
+    "Home": "بيت",
+    "Paragraph_home":"الفقرة في الفقرات",
+    "About": "حول الصفحة",
+    "Contect": "صفحة الاتصال",
+    "Help": "مركز المساعدة",
+    "Btn": "انقر فوق لي",
+    "Heading": "محتوى العنوان",
+    "Description_Home": "ہوم پیج ڈسکرپشن اس پروجیکٹ کے بارے میں تفصیل ہے جو کو پیراگراف کی شکل میں بیان کرتا ہے یہ پروڈکٹ کو کرنے کا بہترین طریقہ ہے۔",
+    "Description_About": "ہوم پیج ڈسکرپشن اس پروجیکٹ کے بارے میں تفصیل ہے جو اس کے بارے میں تمام معلومات کو پیراگراف کی شکل میں بیان کرتا ہے یہ پروڈکٹ کو بیان کرنے کا بہترین طریقہ ہے۔",
+    "Description_Contect": "ہوم پیج ڈسکرپشن اس پروجیکٹ کے بارے میں تفصیل ہے جو اس کے بارے میں تمام معلومات کو پیراگراف کی شکل میں بیان کرتا ہے یہ پروڈکٹ کو بیان کرنے کا بہترین طریقہ ہے۔",
+    "Description_Help": "ہوم پیج ڈسکرپشن اس پروجیکٹ کے بارے میں تفصیل ہے جو اس کے بارے میں تمام معلومات کو پیراگراف کی شکل میں بیان کرتا ہے یہ پروڈکٹ کو بیان کرنے کا بہترین طریقہ ہے۔",
+    "Language": "عربي"
+  }
+}
